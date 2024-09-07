@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>pixel art app</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="styleaheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="configs">
+      <div class="settings">
+        <div class="config">
+          <label for="grid-width">largura do grid</label>
+          <input type="range" id="grid-width" min="1" max="20">
+          <span class="width-value">00</span>
+        </div>
+        <div class="config">
+          <label for="grid-height">altura do grid</label>
+          <input type="range" id="grid-height" min="1" max="20">
+          <span class="height-value">00</span>
+        </div>
+      </div>
+      <div class="submit">
+        <button class="create-grid">criar grid</button>
+        <button class="delete-grid">deletar grid</button>
+        <input type="color" class="cor">
+        <button class="eraser"><span class="material-symbols-outlined" id="span">brush</span></button>
+        <button class="downloadBtn"><span class="material-symbols-outlined">download</span></button>
+      </div>
+    </div>
+    <div class="display"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

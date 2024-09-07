@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: o;
+  box-sizing: border-box;
+  font-family: 'Poppings', sans-serif;
+}
+
+body {
+  background-color: #07071a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.config {
+  background-color: #c9c9c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.configs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.submit {
+  background-color: #c9c9c9;
+  width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.settings {
+  flex-direction: row;
+  display: flex;
+  width: 300px;
+  height: 75px;
+}
+
+.container {
+  max-width: 475px;
+  width: 95%;
+  height: 95%;
+  max-height: 575px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  background-color: #c9c9c9;
+  border-radius: 25px;
+  gap: 10px;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 77px;
+}
+
+.create-grid {
+  background-color: lime;
+}
+
+.delete-grid {
+  background-color: red;
+}
+
+input[type="color"] {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.display {
+  background-color: white;
+  max-width: 450px;
+  width: 95%;
+  height: 95%;
+  max-height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gridCol, gridRow {
+  height: 20px;
+  width: 20px;
+  border: none;
+}
+
+.gridCol {
+  box-sizing: border-box;
+}
+
+.gridRow {
+  display: flex;
+}
+
+.downloadBtn {
+  background-color: #62a0ea;
+}
